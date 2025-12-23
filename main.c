@@ -6,7 +6,6 @@ struct Personel {
     char sicil[50];
     char zamanStr[10];
     char islem;
-    int toplamDakika;
 
 };
 //fonksiyon tanımlanması
@@ -31,8 +30,6 @@ int main(void) {
     int enErkenErkenCikmaSuresi = 0;
     int enErkenCikanDakika = mesaiBitis; // Başlangıçta 17:00 kabul ediyoruz
 
-    // INT_MAX INT_MIN
-    // #include <limits.h>
 
     fgun = fopen("gunluk.dat", "r"); //gunluk.dat dosyasını okuma modunda açar
 
